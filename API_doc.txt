@@ -1,0 +1,12 @@
+BACKEND:
+1. create conda/venv environment inside the backend folder. Make sure the venv/envs folder is inside the backend folder
+2. activate the environment
+3. run the command "pip install -r requirements.txt"
+4. run the command "flask --app app init-db" to initialize
+5. run the command "flask --app app --debug run" to initialize the server
+
+
+FRONTEND:
+1. go to the folder FRONTEND
+2. run the command "npm install" to install all the dependencies
+3. run the command "npm run start:dev" to start the frontend
