@@ -15,7 +15,8 @@ def create_app(test_config=None):
     CORS(app)
     app.config.from_mapping(
         SECRET_KEY='dev',
-        DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
+        # DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
+        DATABSE = "postgres://vhskrmnmyicuuo:526f89edd4e5288459832063c001a3d0197d17ea36c8a74a54b4440b331fcf3c@ec2-54-147-36-107.compute-1.amazonaws.com:5432/daa1kg3bcp2io1"
     )
     # app.config['MYSQL_HOST'] = 'localhost'
     # app.config['MYSQL_USER'] = 'root'

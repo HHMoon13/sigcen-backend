@@ -13,3 +13,5 @@ flask-bcrypt
 flask-mysql
 flask-mysqldb   
 flask-cors
+gunicorn
+psycopg2
